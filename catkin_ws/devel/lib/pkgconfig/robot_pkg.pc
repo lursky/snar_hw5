@@ -1,0 +1,8 @@
+prefix=/home/uhor/catkin_ws/devel
+
+Name: robot_pkg
+Description: Description of robot_pkg
+Version: 0.0.1
+Cflags: -I/home/uhor/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs rospy std_msgs tf message_runtime
